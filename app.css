@@ -1,0 +1,185 @@
+.container {
+  /* background-color: red; */
+  margin: 5px 50px;
+  font-family: 'Noto Sans';
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.services {
+  font-size: 22px;
+  align-self: center;
+  color: grey;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#e1 {
+  position: relative;
+  left: 35px;
+  top: 10px;
+}
+
+#e2 {
+  position: relative;
+  left: 600px;
+  /* top: 10px; */
+}
+
+#e3 {
+  position: relative;
+  left: 204px;
+  top: 100px;
+}
+
+#e4 {
+  position: relative;
+  left: 900px;
+  top: 100px;
+}
+
+.searchBar {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  border: 3px solid #3d3dfd;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 4px;
+  width: 300px;
+  margin-bottom: 46px;
+}
+
+.searchText {
+  align-self: center;
+  color: #3d3dfd;
+}
+
+.claim {
+  clear: both;
+  font-size: 22px;
+  color: #3d3dfd;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.headerText {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Lexand Deca';
+}
+.paragraph {
+  font-size: 22px;
+  color: grey;
+}
+
+.buttons {
+  display: flex;
+  
+}
+
+.button1, .button2 {
+  padding: 10px;
+  font-size: 22px;
+  border: 1px solid #3d3dfd;
+}
+
+.button1 {
+  color: white;
+  background-color: #3d3dfd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button2 {
+  color: #3d3dfd;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.videoSection {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.video {
+  color: #3d3dfd;
+  font-size: 20px;
+  align-self: center;
+  margin-right: 5px;
+  font-weight: 300;
+}
+
+.videoImage {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid #3d3dfd;
+}
+
+.ellipse1 {
+  position: absolute;
+}
+
+#e5 {
+  position: relative;
+  left: -218px;
+}
+
+#e6 {
+  position: relative;
+  bottom: 270 px;
+}
+
+.missionSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.dedication1 {
+  text-decoration: underline #ff8000; 
+  text-decoration-thickness: 8px;
+}
+.dedication1, .dedication2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  
+  
+}
+
+.dedication3 {
+  font-size: 22px;
+  width: 500px;
+  color: grey;
+}
